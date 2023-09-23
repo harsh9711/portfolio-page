@@ -1,0 +1,52 @@
+body {
+    background: #3da3d5;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    color: rgb(53, 53, 53);
+    
+  }
+  
+  .title {
+    font-size: 15em;
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+  }
+  
+  h3 {
+    font-size: 16px;
+  }
+  
+  .vertical-timeline-element-content {
+    
+    padding: 2em 3em !important;
+    background-color: #2CBCE9;
+  }
+  
+  .date {
+    color:white;
+  }
+  
+  #description {
+    margin: 1.5em 0 2em 0;
+  }
+  
+
+  .schoolButton {
+    background-color: #DC4492;
+  }
+  
+  .schoolButton:hover {
+    background-color: #DC4492;
+  }
+  
+  @media only screen and (max-width: 1700px) {
+    .vertical-timeline-element-date {
+      display: block !important;
+      float: none !important;
+      color: white;
+      margin-top: 1.5em;
+    }
+  }
+
+ 
+  
