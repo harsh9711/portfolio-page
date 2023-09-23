@@ -7,7 +7,7 @@ const Footer = () => {
         <SocialMediaIcons />
         <div className="md:flex justify-between  md:justify-between text-center ">
           <p className="font-playfair font-semibold text-2xl text-white">
-            DHRUV RANJAN
+            HARSH SACHDEVA
           </p>
           <p className="font-playfair text-md text-white">
             ©2023 All Rights Reserved.

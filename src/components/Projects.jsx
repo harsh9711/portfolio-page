@@ -29,7 +29,8 @@ const Project = ({ title ,data,href}) => {
           {data}
         </p></a>
       </div>
-     <a target="_blank" href={href}> <img height="400px" width="400px" src={`assets/${projectTitle}.jpeg`} alt={projectTitle}  /></a>
+      <img height="400px" width="400px" src={`${projectTitle}.jpeg`} alt={projectTitle} />
+     {/* /Users/harshsahcdeva/Desktop/Portfolio-main/src/assets/project-4.jpeg */}
     </motion.div>
   );
 };
@@ -80,17 +81,18 @@ const Projects = () => {
           >
             BEAUTIFUL USER INTERFACES
           </div>
-          <Project title="Project 1" data={data[0].desc1} href="https://dhruv18ranjan.github.io/Portfolio/" />
+          <Project title="Project 1" data={data[0].desc1} href="https://github.com/harsh9711/myportfolio" />
           <Project title="Project 2" data={data[1].desc2} href="https://youthoob-d.vercel.app/"/>
 
           {/* ROW 2 */}
           <Project title="Project 3" data={data[2].desc3} href="https://sigmakart-app.onrender.com/" />
           <Project title="Project 4" data={data[3].desc4} href="https://todo-react-dhruv.vercel.app/"/>
-          <Project title="Project 5" data={data[4].desc5} href="https://dhruv18ranjan.github.io/KBC-quiz-app-react/" />
+          {/* <Project title="Project 5" data={data[4].desc5} href="https://dhruv18ranjan.github.io/KBC-quiz-app-react/" /> */}
+
 
           {/* ROW 3 */}
-          <Project title="Project 6" data={data[5].desc6} href="https://tic-tac-toe-dhruv.vercel.app/"/>
-          <Project title="Project 7" data={data[6].desc7} href="https://tindog-two-lyart.vercel.app/"/>
+          {/* <Project title="Project 6" data={data[5].desc6} href="https://tic-tac-toe-dhruv.vercel.app/"/> */}
+          <Project title="Project 7" data={data[6].desc7} href="https://mi-clone-app.netlify.app/"/>
           <div
             className="flex justify-center text-center items-center p-10 bg-blue
               max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold"

@@ -39,9 +39,9 @@ const Landing = ({ setSelectedPage }) => {
                     }}
                 >
                     <p className='text-6xl font-playfair z-10 text-center md:text-start'>
-                        Dhruv {""}
+                        HARSH {""}
                         <span class="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-blue relative inline-block">
-                            <span class="relative text-white">Ranjan</span>
+                            <span class="relative text-white">SACHDEVA</span>
                         </span>
                     </p>
                     <p className="mt-10 mb-7 text-md text-center  md:text-start ">
