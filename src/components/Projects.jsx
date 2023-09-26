@@ -81,7 +81,7 @@ const Projects = () => {
           >
             BEAUTIFUL USER INTERFACES
           </div>
-          <Project title="Project 1" data={data[0].desc1} href="https://github.com/harsh9711/myportfolio" />
+          <Project title="Project 1" data={data[0].desc1} href="https://portfolio-page-rust-delta.vercel.app/"/>
           <Project title="Project 2" data={data[1].desc2} href="https://youthoob-d.vercel.app/"/>
 
           {/* ROW 2 */}
