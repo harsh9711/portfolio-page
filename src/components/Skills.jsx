@@ -7,7 +7,6 @@ import reactImage from "../assets/react.png";
 import bootstrap from "../assets/bootstrap.png";
 import redux from "../assets/redux.png";
 import github from "../assets/github.png";
-import tailwind from "../assets/tailwind.png";
 import node from "../assets/node.png";
 import LineGradient from "./LineGradient";
 
@@ -38,37 +37,20 @@ const Skills = () => {
       title: "React",
       style: "shadow-sky-400",
     },
-    {
-      id: 5,
-      src: tailwind,
-      title: "Tailwind",
-      style: "shadow-sky-400",
-    },
+   
     {
       id: 6,
       src: redux,
       title: "Redux",
       style: "shadow-violet-400",
     },
-    {
-      id: 7,
-      src: node,
-      title: "NodeJs",
-      style: "shadow-green-400",
-    },
+   
     {
       id: 8,
       src: github,
       title: "GitHub",
       style: "shadow-gray-400",
-    },
-    {
-      id: 9,
-      src: bootstrap,
-      title: "bootstrap",
-      style: "shadow-violet-400",
-    },
-   
+    },  
   ];
 
   return (
